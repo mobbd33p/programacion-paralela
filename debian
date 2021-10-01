@@ -1,0 +1,142 @@
+root@noa:~# pico ejemplo00.c
+root@noa:~# ./ejemplo00
+
+root@noa:~# history
+    1  ifconfig
+    2  ipconfig
+    3  ip eddr
+    4  ip eddr
+    5  ip addr
+    6  ping 192.168.0.24
+    7  cd /etc
+    8  cd ddhe
+    9  cd sshe
+   10  cd sshc
+   11  cd sshd
+   12  cd sshd
+   13  cd ssh
+   14  cd sshe
+   15  sshd
+   16  sshc
+   17  ip eddr
+   18  cd /etc
+   19  cd ssh
+   20  vi sshd_config
+   21  sudo apt install apache2
+   22  123654
+   23  sudo apt install apache2
+   24  apt install apache2
+   25  apt install curl
+   26  apt install mariadb-server
+   27  apt install php libapache2-mod-php php-mysql
+   28  apt install php-cli
+   29  apt search phpmyadmin
+   30  apt install php
+   31  apt install phpmyadmin
+   32  systemctl restart apache2
+   33  k
+   34  systemctl restart apache
+   35  systemctl restart apache2
+   36  apt install php-cli
+   37  apt install php libapachez-mod-php php-mysql
+   38  apt install php libapachez-mod-php php-mysql
+   39  systemctl restart apache2
+   40  apt install php-cli
+   41  apt search phpmyadmin
+   42  apt install phpmyadmin -y
+   43  nano /var/www/html/info.php
+   44  ps ax
+   45  ps aux
+   46  df-h
+   47  df -H
+   48  fdisk -
+   49  fdisk -I
+   50  fdisk -L
+   51  fdisk -l
+   52  netstat -na |more
+   53  netstat -na |more
+   54  netstart -na |more
+   55  netstat -na| more
+   56  apt-get install net-tools
+   57  netstat -na |more
+   58  cat/proc/meminfo
+   59  free -m
+   60  apt install lshw
+   61  lshw
+   62  lshw -short
+   63  lshw
+   64  mount | mount -t
+   65  mount|column -t
+   66  cat/proc/meminfo
+   67  cat /etc/modules
+   68  cat /proc/meminfo
+   69  cat /proc/interrupts
+   70  cat /proc/dma
+   71  cat /proc/iomem
+   72  cat /proc/ioport
+   73  cat /proc/ioport
+   74  cat /proc/ioports
+   75  cd etc
+   76  cd /etc
+   77  cd ssh
+   78  vi sshd_config
+   79  cd /etc/ssh
+   80  ls
+   81  dir
+   82  pico
+   83  pico sshd_config
+   84  systemctl restart sshd
+   85  ip addr
+   86  ip eddr
+   87  ip addr
+   88  ifconfig
+   89  ip eddr
+   90  cat/proc/meminfo
+   91  ip addr
+   92  apt-get install build-essential
+   93  apt install gcc
+   94  apt-get install libomp-dev
+   95  pico ejemplo00.c
+   96  ./ejemplo00
+   97  ./ejemplo00.c
+   98  ./ejemplo00
+   99  history
+root@noa:~# gcc -o ejemplo00 -fopenmp ejemplo00.c
+root@noa:~# ./ejemplo00
+Welcome to GFG from thread = 0
+Number of threads = 1
+root@noa:~# pico ejemplo01.c
+root@noa:~# gcc -o ejemplo01 -fopenmp ejemplo01.c
+root@noa:~# ./ejemplo01
+Ingresar el numero de hilos: 1
+Este computador usa 1 procesador(es)
+En este ejemplo se desea usar 1 hilo(s)
+En este momento se esta(n) ejecutando 1 hilo(s)
+
+Acabo de entrar a la seccion paralela
+Hola, soy el hilo 0, en este momento se esta(n) ejecutando 1 hilo(s)
+Acabo de salir de la seccion paralela
+
+En este momento se esta(n) ejecutando 1 hilo(s)
+root@noa:~# pico ejemplo03.c
+root@noa:~# gcc -o ejemplo00 -fopenmp ejemplo00.c
+root@noa:~# gcc -o ejemplo03 -fopenmp ejemplo03.c
+root@noa:~# ./ejemplo03
+ID: 0, Max threads: 1, Num threads: 1
+ID: 0, Max threads: 5, Num threads: 1
+ID: 0, Max threads: 5, Num threads: 5
+ID: 4, Max threads: 5, Num threads: 5
+ID: 3, Max threads: 5, Num threads: 5
+ID: 2, Max threads: 5, Num threads: 5
+ID: 1, Max threads: 5, Num threads: 5
+ID: 0, Max threads: 5, Num threads: 1
+ID: 0, Max threads: 6, Num threads: 1
+root@noa:~# pico ejemplo04.c
+root@noa:~# gcc -o ejemplo04 -fopenmp ejemplo04.c
+root@noa:~# ./ejemplo04
+Especifique 2 subprocesos, tiempo de ejecución: 9.319824
+Especifique 4 subprocesos, tiempo de ejecución: 9.363770
+Especifique 8 subprocesos, tiempo de ejecución: 9.440430
+Especifique 12 subprocesos, tiempo de ejecución: 9.281006
+No utilice subprocesos múltiples de OpenMP, tiempo de ejecución: 9.260010
+root@noa:~#
